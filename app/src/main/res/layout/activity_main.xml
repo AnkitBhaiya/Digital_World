@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/our_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="Our Services"
+        android:padding="20sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/our_services">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:background="@color/whiteTextColor"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="10sp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/app_development" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10sp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="App Development"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Price : 10000 Rs"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/call_btn"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:drawableLeft="@drawable/call"
+                            android:text="Call Now "
+                            app:initialCornerAngle="27sp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="6sp"
+                            app:spinning_bar_width="4sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:background="@color/whiteTextColor"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="10sp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/web_development"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10sp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Web Development"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Price : 13000 Rs"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/call_web_btn"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:drawableLeft="@drawable/call"
+                            android:text="Call Now "
+                            app:initialCornerAngle="27sp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="6sp"
+                            app:spinning_bar_width="4sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:background="@color/whiteTextColor"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="10sp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/digital_marketing"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10sp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Digital Marketing"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Price : 10000 Rs"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/call_digital_btn"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:drawableLeft="@drawable/call"
+                            android:text="Call Now "
+                            app:initialCornerAngle="27sp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="6sp"
+                            app:spinning_bar_width="4sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:background="@color/whiteTextColor"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="10sp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hacking"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10sp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Ethical Hacking"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Price : 8000 Rs"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/call_hacking_btn"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:drawableLeft="@drawable/call"
+                            android:text="Call Now "
+                            app:initialCornerAngle="27sp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="6sp"
+                            app:spinning_bar_width="4sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:background="@color/whiteTextColor"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="150sp"
+                        android:layout_margin="10sp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/security"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10sp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Cyber Security"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Price : 5000 Rs"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                            android:id="@+id/call_security_btn"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:drawableLeft="@drawable/call"
+                            android:text="Call Now "
+                            app:initialCornerAngle="27sp"
+                            app:spinning_bar_color="#FFF"
+                            app:spinning_bar_padding="6sp"
+                            app:spinning_bar_width="4sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

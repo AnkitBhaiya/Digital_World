@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "851978030163",
+    "firebase_url": "https://digital-world-efec9-default-rtdb.firebaseio.com",
+    "project_id": "digital-world-efec9",
+    "storage_bucket": "digital-world-efec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851978030163:android:b139fb0d7460341fe5caa6",
+        "android_client_info": {
+          "package_name": "com.ankitsharma.digitalworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851978030163-nmt96c8pm5bjn3fggl4ugnicbitairnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ankitsharma.digitalworld",
+            "certificate_hash": "70693574bb145b4ab402270cf57bdf521c872d1a"
+          }
+        },
+        {
+          "client_id": "851978030163-0ce5rqvoamatph2bur5b9ebnonj28tev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_qH_tLent6pn9p9o9c1YJRA83lGcUKaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851978030163-0ce5rqvoamatph2bur5b9ebnonj28tev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
